@@ -1,0 +1,20 @@
+package for_example;
+
+public class for_ex1 {
+
+	public static void main(String[] args) {
+	//구구단 출력 만들기
+		int dan;
+		int num;
+		
+		for (dan=2;dan<10;dan++) {
+			System.out.println(dan + "단입니다.");
+
+			for(num =1 ;num<10; num++) {
+				System.out.println(dan + "x" + num + "=" + dan*num);
+			}
+		}
+
+	}
+
+}
